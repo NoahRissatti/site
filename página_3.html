@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Artemania/Cinema como Arte</title>
+    <style>
+        body {
+            background-color: beige;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 100px;  
+            grid-column-gap: 25px;
+        }
+        #header_principal{
+            background-color: rgb(203, 149, 224);
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        #titulo_site{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 85px;
+            display: inline-block;
+        }
+        #pincel{
+            display: inline-block;
+            width: 75px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(112, 25, 108);
+        }
+         ul li{
+            float:left;
+        }
+        li a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        li a:hover {
+            background-color: beige;
+        }
+        main{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 10;
+            text-align: center;
+        }
+        article{
+            background-color: rgb(255, 255, 255);
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        aside{
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 10;
+            
+        }
+        footer{
+            grid-column-start: 1;
+            grid-row-end: 4;
+            grid-row-start: 10;
+            grid-row-end: auto;
+        }
+        h2{
+            color: rgb(203, 149, 224);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+        }
+        #fim{
+            background-color: rgb(203, 149, 224);
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .credito{
+            text-align: center;
+        }
+        ol {
+            background:white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+        }
+        #index{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header id="header_principal">
+        <img src="https://cdn-0.imagensemoldes.com.br/wp-content/uploads/2020/06/%C3%8Dcone-Pincel-PNG.png" alt="imagem de um pincel" width="50" id="pincel">
+        <h1 id="titulo_site">
+            artemania
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="página_2.html" target="_blank">MOVIMENTO RENASCENTISTA</a></li>
+                <li><a href="index.html" target="_blank">PÁGINA PRINCIPAL</a></li>
+            </ul>
+        </nav>
+</header>
+    <main>
+        <section>
+            <article id="post1">
+                <header><h2>Cinema na Atualidade</h2></header>
+                <div>
+                    <p>
+                        O cinema baseia-se em projeções públicas de imagens animadas. O cinema nasceu de várias inovações que vão desde do domínio fotográfico até a síntese do movimento. A esta foi atribuída como causa a persistência da visão ou "persistência retiniana", por teóricos renomados e importantes. Mas o efeito de movimento do cinema não pode ser explicado pela "persistência retiniana"
+                         , onde na verdade, acontece em nível neural, já posterior à fase da retina no processo de percepção visual.
+                    </p>
+                    <p>
+                        Os filmes com as maiores bilheterias dos ultimos anos:
+                    </p>
+                    <ol type="I">
+                        <li>Avatar</li>
+                        <li>Vingadores: Ultimato</li>
+                        <li>Titanic</li>
+                        <li>Star Wars Episódio VII: O Despertar da Força</li>
+                        <li>Vingadores: Guerra Infinita</li>
+                        <li>Jurassic World</li>
+                        <li>O Rei Leão</li>
+                        <li>Vingadores</li>
+                        <li>Velozes e Furiosos 7</li>
+                        <li>Frozen 2</li>
+                    </ol>
+                </div>
+            </article>
+            <article id="post2">
+                <header>
+                    <h2>Tudo sobre Fotografia</h2>
+                </header>
+                <div>
+                    <p>A fotografia no cinema ou cinematografia é o elemento que diz respeito à captação das imagens, por meio de filmagens em película ou utilizando câmeras digitais. Ou seja, ela abrange tudo o que se
+                         relaciona à “impressão” daquilo que será visto pelo espectador, posteriormente.</p>
+                    <img src="https://blog.emania.com.br/wp-content/uploads/2015/09/Taxi-Driver-105.jpg" alt="cena de um filme onde é possivel ver várias placas luminosas e coloridas numa rua escura" width="600">
+                    <footer ><p class="credito">cena do filme Taxi-Driver de Martin Scorsese</p></footer>
+                    <p>Isso quer dizer que a direção de fotografia é a área que controla o processo de construção e o registro das imagens, levando para a tela toda a atmosfera e a linguagem imaginadas na pré-produção, por meio de ferramentas técnicas como iluminação,
+                         filtros, lentes, movimentos de câmera, enquadramento, cor, exposição, etc.</p>
+                    <img src="https://blog.emania.com.br/wp-content/uploads/2015/09/Amelie-0159-1024x433.jpg" alt="imagem que mostra uma moça com franja curta e vestido vermelho segurando uma colher bem perto do rosto" width="600">
+                    <footer ><p class="credito">cena do filme Amelie Poulain de Jean-Pierre Jeunet</p></footer>
+                    <p>Uma definição genérica seria dizer que o diretor de fotografia ou cinematógrafo é o profissional que usa a câmera e a luz para transformar o texto do roteiro em imagens. Aliás, a palavra “cinematografia” vem do grego
+                        , numa junção entre kinema (que significa “movimento”), e graphein (“gravar”).</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <aside>
+        <article>
+            <h2>POPULARES</h2>
+            <nav>
+                <ul>
+                    <li id="index">
+                        <a href="#post1">CINEMA NA ATUALIDADE</a>
+                        <a href="#post2">TUDO SOBRE FOTOGRAFIA</a>
+                    </li>
+                </ul>
+            </nav>
+        </article>
+    </aside>
+    <footer id="fim">
+        <p>
+            Site feito por Noah Rissatti
+        </p>
+    </footer>
+</body>
+</html>

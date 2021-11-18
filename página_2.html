@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Artemania/Movimento Renascentista</title>
+    <style>
+        body {
+            background-color: beige;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 100px;  
+            grid-column-gap: 25px;
+        }
+        #header_principal{
+            background-color: rgb(203, 149, 224);
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        #titulo_site{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 85px;
+            display: inline-block;
+        }
+        #pincel{
+            display: inline-block;
+            width: 75px;
+        }
+        .nav{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(112, 25, 108);
+        }
+        .nav li{
+            float:left
+        }
+        li a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        li a:hover {
+            background-color: beige;
+        }
+        main{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 10;
+            text-align: center;
+        }
+        article{
+            background-color: rgb(255, 255, 255);
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+        aside{
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 10;
+            
+        }
+        footer{
+            grid-column-start: 1;
+            grid-row-end: 4;
+            grid-row-start: 10;
+            grid-row-end: auto;
+        }
+        h2{
+            color: rgb(203, 149, 224);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+        }
+        #fim{
+            background-color: rgb(203, 149, 224);
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        ul{
+            list-style-type: disc;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header id="header_principal">
+        <img src="https://cdn-0.imagensemoldes.com.br/wp-content/uploads/2020/06/%C3%8Dcone-Pincel-PNG.png" alt="imagem de um pincel" width="50" id="pincel">
+        <h1 id="titulo_site">
+            artemania
+        </h1>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html" target="_blank">PÁGINA PRINCIPAL</a></li>
+                <li><a href="página_3.html" target="_blank">CINEMA COMO ARTE</a></li>
+            </ul>
+        </nav>
+</header>
+    <main>
+        <section>
+            <article id="post1">
+                <header><h2>Movimento Renascentista</h2></header>
+                <div>
+                    <p>
+                        O Renascimento foi um movimento cultural, 
+                        econômico e político, surgido na Itália no século XIV e se estendeu até o século XVII por toda a Europa.
+                    </p>
+                    <p>
+                        Inspirado nos valores da Antiguidade Clássica e gerado pelas modificações econômicas, o Renascimento
+                         reformulou a vida medieval, e deu início à Idade Moderna.
+                    </p>
+                    <p>
+                        Artistas mais famosos:
+                    </p>
+                    <ul>
+                        <li>Leonardo da Vinci: Matemático, físico, anatomista, inventor, arquiteto, escultor e pintor, ele foi o esteriótipo do homem renascentista que domina várias ciências.
+                             Por isso, é considerado um gênio absoluto. A Mona Lisa e A Última Ceia são suas obras primas.</li>
+                        <li>
+                            Rafael Sanzio: foi um mestre da pintura e famoso por saber transmitir sentimentos delicados através de suas imagens de Nossa Senhora. Uma de suas obras mais 
+                             é a Madona do Prado.
+                        </li>
+                        <li>
+                            Michelangelo: artista italiano cuja obra foi marcada pelo humanismo. Além de pintor foi um dos maiores escultores do Renascimento. Entre suas obras destacam-se a Pietá,
+                             David, A Criação de Adão e O Juízo Final. Também foi o responsável por pintar o teto da Capela Sistina.
+                        </li>
+                        <li>
+                            Donatello:Além da tríade dos principais representantes da Renascença, Donatello foi um importante escultor italiano do período, nascido em Florença. Introduziu novas
+                             técnicas artísticas ao utilizar diferentes materiais para compor suas esculturas, como mármore, bronze e madeira.
+                        </li>
+                        <li>
+                            Sandro Boticcelli:Pintor e desenhista nascido em Florença, Alessandro di Mariano di Vanni Filipepi, mais conhecido por seu nome artístico, Sandro Boticcelli, 
+                            foi um dos pintores mais proeminentes da Itália renascentista.
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article id="post2">
+                <header>
+                    <h2>Vídeo sobre o Movimento Renascentista</h2>
+                </header>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ssrgYX09v8M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
+                    
+                </div>
+            </article>
+            <article id="post3">
+                <header>
+                    <h2>Minhas obras favoritas:</h2>
+                </header>
+                <div>
+                    <p>Monalisa, de Leonardo da Vinci</p>
+                    <img src="https://cdn.culturagenial.com/imagens/mona-lisa-leonardo-da-vinci-cke.jpg" 
+                    alt="Pintura Monalisa, do Arista Leonardo da Vinci, a pintura retrata uma mulher com olhar 
+                    misterioso, no fundo podemos ver uma paisagem com arvores" width="600">
+                    <p>A criação de Adão, de Michelangelo</p>
+                    <img src="https://cdn.culturagenial.com/imagens/criacao-de-adao-cke.jpg" alt="Pintura que retrata
+                    dois homen, o da esquerda sendo Adâo, esticando seu dedo para alcançar o homem da direita, Deus.O homem da direita
+                    está rodeado por anjos, de uma forma que lembra o cerebro humano"width="600">
+                    <p>O nascimento de Vênus, de Sandro Botticelli</p>
+                    <img src="https://cdn.culturagenial.com/imagens/quadro-o-nascimento-de-venus-de-botticelli-og-0-cke.jpg" alt="A pintura
+                    tem foco na mulher que fica na posição central, esta nua, cobrindo as partes intimas com as maos.Envolta dela há duas mulheres
+                    e um anjo.A paisagem é na beira de um rio ou mar"width="600">
+                    <p>Pietá, de Michelangelo</p>
+                    <img src="https://cdn.culturagenial.com/imagens/pieta-de-michelangelo-cke.jpg" width="600" alt="A obra é uma escultuta de uma mulher segurando
+                    um homem nos braços">
+                </div>
+            </article>
+        </section>
+    </main>
+    <aside>
+        <article>
+            <h2>POPULARES</h2>
+            <nav>
+                <ul class="nav">
+                    <li>
+                        <a href="#post1" >MOVIMENTO RENASCENTISTA</a>
+                        <a href="#post2" >VÍDEO SOBRE MOVIMENTO RENASCENTISTA</a>
+                        <a href="#post3">MINHAS OBRAS FAVORITAS</a>
+                    </li>
+                </ul>
+        </nav>
+    </article>
+        
+    </aside>
+    <footer id="fim">
+        <p>
+            Site feito por Noah Rissatti
+        </p>
+    </footer>
+</body>
+</html>

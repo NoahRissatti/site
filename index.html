@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Artemania</title>
+    <style>
+        body {
+            background-color: beige;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 100px;  
+            grid-column-gap: 25px;
+        }
+        #header_principal{
+            background-color: rgb(203, 149, 224);
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        #titulo_site{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 85px;
+            display: inline-block;
+        }
+        #pincel{
+            display: inline-block;
+            width: 75px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(112, 25, 108);
+        }
+        li{
+            float:left
+        }
+        li a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        li a:hover {
+            background-color: beige;
+        }
+        main{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 10;
+            text-align: center;
+        }
+        article{
+            background-color: rgb(255, 255, 255);
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        aside{
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 10;
+            
+        }
+        footer{
+            grid-column-start: 1;
+            grid-row-end: 4;
+            grid-row-start: 10;
+            grid-row-end: auto;
+        }
+        h2{
+            color: rgb(203, 149, 224);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        th, td {
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {background-color:rgb(203, 149, 224);}
+        th {
+            background-color: rgb(112, 25, 108);
+            color: white;
+        }
+        table{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #tabela{
+            display: inline-block;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+        }
+        #fim{
+            background-color: rgb(203, 149, 224);
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        input{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        input:focus {
+            background-color: rgb(203, 149, 224);
+        }
+        select {
+            width: 100%;
+            padding: 16px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #f1f1f1;
+        }
+        input[type=button], input[type=submit], input[type=reset] {
+            background-color:rgb(112, 25, 108) ;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header id="header_principal">
+            <img src="https://cdn-0.imagensemoldes.com.br/wp-content/uploads/2020/06/%C3%8Dcone-Pincel-PNG.png" alt="imagem de um pincel" width="50" id="pincel">
+            <h1 id="titulo_site">
+                artemania
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="página_2.html"target="_blank">MOVIMENTO RENASCENTISTA</a></li>
+                    <li><a href="página_3.html"target="_blank">CINEMA COMO ARTE</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id="posts">
+            <article id="post1">
+                <header>
+                    <h2>
+                        Museus em São Paulo
+                    </h2>
+                </header>
+                <div id="tabela">
+                    <table>
+                        <caption>
+                            Tabela de preços dos Museus em São Paulo
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th>
+                                    Museus
+                                </th>
+                                <th>
+                                    Preço por Pessoa
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Pinacoteca
+                                </td>
+                                <td>
+                                    25,00 R$
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Museu do Futebol
+                                </td>
+                                <td>
+                                    15,00 R$
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Museu da Imagem e do Som - MIS
+                                </td>
+                                <td>
+                                    40,00 R$
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Museu Catavento
+                                </td>
+                                <td>
+                                    10,00 R$
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Museu Afro Brasil
+                                </td>
+                                <td>
+                                    7,00 R$
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Museu da Imigração
+                                </td>
+                                <td>
+                                    23,00 R$
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Museu da Arte Sacra
+                                </td>
+                                <td>
+                                    17,00 R$
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Museu da Arte Contemporânea
+                                </td>
+                                <td>
+                                    50,00 R$
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Museu Paulista
+                                </td>
+                                <td>
+                                    14,00 R$
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Memória da América Latina
+                                </td>
+                                <td>
+                                    12,00 R$
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Todos tem entrada grátis para crianças menores que 12 anos</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <footer>
+                    <p>Essas informações são de 2015</p>
+                </footer>
+            </article>
+            <article id="post2">
+                <header>
+                    <h2>
+                        Teorias sobre o misterioso artista Banksy
+                    </h2>
+                </header>
+                <div>
+                    <p>
+                        O jornalista investigativo Craig Williams indicou um dos membros da banda Massive Attack,
+                         Robert Del Naja, como a pessoa que está por trás do pseudônimo do grafiteiro Banksy.
+                    </p>
+                    <p>
+                        Robert Del Naja, apelidado de 3D, começou como grafiteiro na década de oitenta, antes de formar a banda de trip-hop, e em várias ocasiões disse que é amigo de Banksy, uma vez que tanto a banda como o artista nasceu em Bristol. De fato, Williams estende sua teoria de que poderia se tratar de uma obra coral, não de uma só pessoa. “E se Banksy não fosse uma única pessoa? E se fosse um grupo de pessoas? Como um trabalho coletivo valioso, feito ao longo de uma década”, afirmou. Segundo essa teoria, o jornalista previu o retorno de Banksy em Bristol em um curto
+                         espaço de tempo, pois a banda se apresentará neste fim de semana em sua cidade natal.
+                    </p>
+                    <img src="https://s3.ca-central-1.amazonaws.com/artists.handcrafting.codes/artists/art-17263/imagens/fgF8q22q.jpg
+                    " alt="pintura do artista Bansky" width="500" >
+                </div>
+            </article>
+        </section>             
+    </main>
+    <aside>
+        <article>
+            <h2>POPULARES</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#post1">MUSEUS EM SÃO PAULO</a>
+                        <a href="#post2">TEORIAS SOBRE O MISTERIOSO ARTISTA BANKSY</a>
+                    </li>
+                </ul>
+            </nav>
+        </article>
+        <article>
+            <header>
+                <h2>Se deseja entrar em contato: </h2>
+            </header>
+            <form action="página_génerica" method="GET">
+                <p>Insira seu nome: </p>
+                <input type="text" name="nome" minlength="3" placeholder="Insira seu nome aqui" required>
+                <p>Insira seu número de telefone: </p>
+                <input type="tel" name="telefone" minlength="10" maxlength="14" placeholder="Insira seu telefone aqui">
+                <p>Insira seu email: </p>
+                <input type="email" name="email" required placeholder="Insira seu email aqui">
+                <p>Insira sua dúvida: </p>
+                <input type="text" name="duvida" required placeholder="Insira sua dúvida aqui" >
+                <p>Insira a data de hoje: </p>
+                <input type="date" name="nascimento" >
+                <label for="duvidas">Selecione seu tipo de dúvida:</label>
+                <select name="select_duvida" id="duvidas">
+                    <option value="">Preço</option>
+                    <option value="1">Parceria</option>
+                    <option value="2">Erro em algum artigo</option>
+                </select>
+                <input type="reset">
+                <input type="submit">
+            </form>
+        </article>
+    </aside>
+    <footer id="fim">
+        <p>
+            Site feito por Noah Rissatti
+        </p>
+    </footer>
+    
+</body>
+</html>
